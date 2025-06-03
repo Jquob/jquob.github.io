@@ -1,4 +1,4 @@
-const ttc = "https://cors.jacoborr.org/https://myttc.ca/";
+const ttc = "https://myttc.ca/";
 
 // Initialize the application based on URL parameters when page loads
 $(document).ready(function () {
