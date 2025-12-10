@@ -1,8 +1,8 @@
 # jquob.github.io
 
-```sh
-bun create astro@latest -- --template minimal
-```
+Just a little website for my domain names root
+
+[jacoborr.org](https://jacoborr.org)
 
 ## 🚀 Project Structure
 
