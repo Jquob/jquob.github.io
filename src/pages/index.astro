@@ -1,16 +1,19 @@
 ---
-
+import BaseLayout from "../layouts/BaseLayout.astro";
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
-</html>
+<BaseLayout pageTitle="Home | Jquob">
+    <h1>Hello, im Jacob!</h1>
+    <h3>I'm an amatuer fullstack developer.</h3>
+    <p>
+        Im a mostly self-taught frontend developer. I have made some small
+        projects, mostly using jquery (yes its old ik). I LOVE my interpreted
+        languages and have an intense hate for Java. i am part of FRC team 8884,
+        and do mostly web-design using Astro. i am learning Next.js so that i
+        can make web-applications.
+    </p>
+</BaseLayout>
+
+<style>
+    @import "/public/css/pico.min.css";
+</style>
