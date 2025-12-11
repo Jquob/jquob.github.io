@@ -1,0 +1,55 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+---
+
+<BaseLayout pageTitle="Projects | Jquob">
+    <h1>My Projects</h1>
+    <h3>My small, and usually completely broken projects</h3>
+    <article>
+        <header>My-TTC UI</header>
+        <details closed>
+            <summary> Click here to see details </summary>
+            <p>
+                My-TTC UI is a web application i created to help me learn API's
+                and as part of a school project. It is a simple UI that allows
+                users to search for TTC routes and stops, and get
+                bus/subway/streetcar times. it is built using Jquery and
+                tailwindcss. its not good but it won me the tech award : )
+            </p>
+        </details>
+        <footer>
+            <a href="https://github.com/Jquob/ttc">Source Code</a>
+        </footer>
+    </article>
+    <article>
+        <header>knightowls.ca</header>
+        <details closed>
+            <summary> Click here to see details </summary>
+            <p>
+                knightowls.ca is the website for the FRC team I am on, it is
+                built using Astro and lets people see who we are, our awards,
+                and lets sponsors give us donations.
+            </p>
+        </details>
+        <footer>
+            <a href="https://github.com/NSS-Robotics/website">Source Code</a>
+        </footer>
+    </article>
+    <article>
+        <header>More on my github!</header>
+        <details closed>
+            <summary> Click here to see details </summary>
+            <p>
+                I have a few more projects on my github, most of them are
+                unfinished, but feel free to check them out!
+            </p>
+        </details>
+        <footer>
+            <a href="https://github.com/Jquob">My Github</a>
+        </footer>
+    </article>
+</BaseLayout>
+
+<style>
+    @import "/public/css/pico.min.css";
+</style>
